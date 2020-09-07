@@ -1,3 +1,17 @@
+<h1 align="center">:fire:GPU Cluster Instruction:fire:</h1>
+<p align="center">
+  <a href="#"><img src="http://hits.dwyl.io/L1NNA/Information.svg" alt="" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="" /></a>
+  <a href="#"><img src="https://img.shields.io/github/issues/L1NNA/Information.svg?style=flat-square" alt="" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/badges-awesome-green.svg?style=flat-square&color=brightgreen" alt="" /></a>
+  <a href="#"><img src="https://img.shields.io/github/license/Naereen/StrapDown.js.svg?style=flat-square&color=brightgreen" alt="" /></a>
+</p>
+<p align="center">
+  <span>Contributors: Chris Molloy and Michael Wrana</span>
+</p>
+
+
+
 # Introduction
 This is a tutorial for using the L1nna laboratory's GPU computing cluster.  It contains 8 Nvidia [RTX6000s](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-6000/), each with 24GB of GDDR6 memory.  The server is ideal for performing GPU-intensive computing tasks that wouldn't be possible on your local machine.  Before you begin, please read the Queen's policy on [Acceptable Use of Information Technology Resources](https://www.queensu.ca/secretariat/policies/senate/electronic-information-security-policy-framework/acceptable-use-information).
 # Important Links and Resources
@@ -84,4 +98,4 @@ one with `jupyter kernelspec uninstall unwanted-kernel`.
 
 [Source](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)
 
-###### Chris Molloy & Michael Wrana
+###### 
