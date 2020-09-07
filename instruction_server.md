@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://thumbs.gfycat.com/ThornyIllegalIndochinesetiger-size_restricted.gif" height="200px" alt="" />
+</p>
 <h1 align="center">:fire:GPU Cluster Instruction:fire:</h1>
 <p align="center">
   <a href="#"><img src="http://hits.dwyl.io/L1NNA/Information.svg" alt="" /></a>
