@@ -15,15 +15,17 @@
 # Introduction
 This is a tutorial for using the L1nna laboratory's GPU computing cluster.  It contains 8 Nvidia [RTX6000s](https://www.nvidia.com/en-us/design-visualization/quadro/rtx-6000/), each with 24GB of GDDR6 memory.  The server is ideal for performing GPU-intensive computing tasks that wouldn't be possible on your local machine.  Before you begin, please read the Queen's policy on [Acceptable Use of Information Technology Resources](https://www.queensu.ca/secretariat/policies/senate/electronic-information-security-policy-framework/acceptable-use-information).
 # Important Links and Resources
-[Server Access](https://p.l1nna.com/)
-[Jupyter Lab Docs](https://jupyterlab.readthedocs.io/en/latest/)
-[Jupyter Notebook Docs](https://jupyter-notebook.readthedocs.io/en/stable/)
-[Bash Introduction](https://programminghistorian.org/en/lessons/intro-to-bash)
-[VSCode Introduction](https://code.visualstudio.com/docs/introvideos/basics)
-[Conda Docs](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
-[Conda Cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
-[Tensorflow Guide](https://www.tensorflow.org/guide)
-[PyTorch Guide](https://pytorch.org/docs/stable/index.html)
+
+- [Server Access](https://p.l1nna.com/)
+- [Jupyter Lab Docs](https://jupyterlab.readthedocs.io/en/latest/)
+- [Jupyter Notebook Docs](https://jupyter-notebook.readthedocs.io/en/stable/)
+- [Bash Introduction](https://programminghistorian.org/en/lessons/intro-to-bash)
+- [VSCode Introduction](https://code.visualstudio.com/docs/introvideos/basics)
+- [Conda Docs](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+- [Conda Cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+- [Tensorflow Guide](https://www.tensorflow.org/guide)
+- [PyTorch Guide](https://pytorch.org/docs/stable/index.html)
+
 # Initialization
 Once you have connected your GitHub to the server you will now see the Hub Control Panel. The Hub Control Panel is where you can initialize or terminate your session. 
 
