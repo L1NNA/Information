@@ -58,7 +58,17 @@ Here you can create a new notebook, console or terminal window, or you can launc
 
 VS Code on the server works exactly like a local version, this includes the ability to add extensions.  Your extensions and settings will be automatically saved in your server storage when your connection is terminated.
 
-# Tensorflow & PyTorch
+# GPU, Tensorflow & PyTorch
+
+To check if the GPUs are actually avaiable, you can open a terminal and issue:
+```
+nvidia-smi
+```
+This will show the utilization status of the attached GPU devices. If you want to keep monitoring the utilization, you can type:
+```
+nvidia-smi -i
+```
+
 Tensor flow and PyTorch are both part of the base python environment on the server. To ensure that both packages are correctly installed you can test a Python import statement.  Note that after creating a new Conda environment, installing Tensorflow and PyTorch is required.
 
 ```
