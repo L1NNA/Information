@@ -55,11 +55,31 @@ Once you have completed server initialization you will be connected to JupyterLa
 
 From the JupyterLab launcher you can easily create a Jupyter Notebook, console, terminal window, or VS Code instance.  To re-open the launcher go to File -> New Launcher or type (⌘ / Ctrl) + Shift + L.
 
-### VS Code
+## VS Code
 
 ![image](https://user-images.githubusercontent.com/25777239/92413231-1d87b500-f11d-11ea-8d07-889b2b0532c8.png)
 
 VS Code on the server works exactly like a local version, this includes the ability to add extensions.  Your extensions and settings will be automatically saved in your server storage when your connection is terminated.
+
+### Extensions & Themes
+Here are some helpful extensions and themes that will make your time with VS Code more enjoyable. Go to the extensions tab on the leftmost column of VS Code to input these extensions for download.
+
++ ```ms-python.python``` - Python package (Highly recommended)
++ ```eamodio.gitlens``` - GitHub extension (Highly recommended)
++ ```streetsidesoftware.code-spell-checker``` - Code spell checker
++  ```christian-kohler.path-intellisense``` - Path autocomplete
++ ```esbenp.prettier-vscode``` - Code formatter 
++ ```vscodevim.vim``` - Vim extension 
+
+
+These are some themes that you can install to personalize your VS Code:
+
++ ```onecrayon.theme-quietlight-vsc``` - light theme with a bit more color than VS Code default light theme
++ ```eliverlara.andromeda ``` - Dark theme
++  ```robbowen.synthwave-vscode``` - Matches Cyberdeck aesthetic 
+
+Shortcut for changing your current theme:  ```CTRL+K CTRL+T```
+
 
 # GPU & Python Packages
 
