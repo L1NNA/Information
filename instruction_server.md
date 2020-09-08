@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://thumbs.gfycat.com/ThornyIllegalIndochinesetiger-size_restricted.gif" height="200px" alt="" />
+  <img src="https://imgur.com/a/rMVmrrm.gif" height="200px" alt="" />
 </p>
 <h1 align="center">:fire:GPU Cluster Instruction:fire:</h1>
 <p align="center">
@@ -49,11 +49,11 @@ After 12 hours of inactivity your session will be terminated.  All your files wi
 
 # JupyterLab
 
-Once you have completed server initialization you will be connected to Jupiter through the server.
+Once you have completed server initialization you will be connected to JupyterLab through the server.
 
 ![image](https://user-images.githubusercontent.com/25777239/92413219-152f7a00-f11d-11ea-8be6-8688cac65986.png)
 
-Here you can create a new notebook, console or terminal window, or you can launch an instance of VS Code.
+From the JupyterLab launcher you can easily create a Jupyter Notebook, console, terminal window, or VS Code instance.  To re-open the launcher go to File -> New Launcher or type (⌘ / Ctrl) + Shift + L.
 
 ### VS Code
 
@@ -61,7 +61,9 @@ Here you can create a new notebook, console or terminal window, or you can launc
 
 VS Code on the server works exactly like a local version, this includes the ability to add extensions.  Your extensions and settings will be automatically saved in your server storage when your connection is terminated.
 
-# GPU, Tensorflow & PyTorch
+# GPU & Python Packages
+
+### GPU
 
 To check if the GPUs are actually avaiable, you can open a terminal and issue:
 ```
@@ -71,6 +73,8 @@ This will show the utilization status of the attached GPU devices. If you want t
 ```
 nvidia-smi -i
 ```
+
+### Tensorflow and PyTorch
 
 Tensor flow and PyTorch are both part of the base python environment on the server. To ensure that both packages are correctly installed you can test a Python import statement.  Note that after creating a new Conda environment, installing Tensorflow and PyTorch is required.
 
@@ -88,8 +92,17 @@ to ensure Pytorch has been installed.
 
 If both snippets return a version number then that package has been correctly installed.
 
+### Other Packages
+
+The server comes with a default python environment that is not in Conda.  This is the one that will be used in the JupyterLab terminal by default.  If you install a package into this environment it will be saved in the `~/.local` directory.  This means that any packages you install here will also persist through a server restart.  
+```
+~$ pip install --user pytest  
+~$ ls .local/lib/python3.7/site-packages/  
+magic.py  __pycache__  pytest  _pytest  pytest-6.0.1.dist-info  python_magic-0.4.18.dist-info
+```
+
 # Conda Environments
-Currently, you are unable to activate conda environments through the standard JupyterLab terminal, instead you must use the VS Code Terminal.  Create a new VS Code page by opening it from the JupyterLab launcher.  Next open the menu in the top left and go to Terminal -> New Terminal.  From here you should be able to use all standard Conda commands.
+Currently, you are unable to activate Conda environments through the standard JupyterLab terminal, instead you must use the VS Code Terminal.  Create a new VS Code page by opening it from the JupyterLab launcher.  Next open the menu in the top left and go to Terminal -> New Terminal.  From here you should be able to use all standard Conda commands.
 
 ### Linking Conda Environments to Python
 After creating a new Conda environment, you can create a quick-link on the JupyterLab launcher to create a Python terminal with the new Conda environment.  First, activate your new Conda environment.  Then install `ipykernel` into that new environment.  Finally create a new kernel :
@@ -107,9 +120,9 @@ Now, the a notebook for the new kernel should appear in your JupyterLab launcher
 [Source](https://stackoverflow.com/questions/53004311/how-to-add-conda-environment-to-jupyter-lab)
 
 ### Removing an added Environment
-If you decide you no longer want a conda environment simply deleting it should remove the linked jupyter notebook launcher.  It it persists, however, you can type `jupyter kernelspec list` into the JupyterLab console to list avaliable kernels and remove the unwanted 
-
-one with `jupyter kernelspec uninstall unwanted-kernel`.
+If you decide you no longer want a Conda environment simply deleting it should remove the linked Jupyter notebook launcher.  It it persists, however, you can type 
+`jupyter kernelspec list`
+into the JupyterLab console to list avaliable kernels and remove the unwanted one with `jupyter kernelspec uninstall unwanted-kernel`
 
 [Source](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)
 
