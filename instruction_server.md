@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://imgur.com/a/rMVmrrm.gif" height="200px" alt="" />
+  <img src="https://media.giphy.com/media/U7nYAGksLRanU3i4vp/giphy-downsized-large.gif" alt="" />
 </p>
 <h1 align="center">:fire:GPU Cluster Instruction:fire:</h1>
 <p align="center">
