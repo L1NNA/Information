@@ -29,6 +29,14 @@ This is a tutorial for using the L1nna laboratory's GPU computing cluster.  It c
 - [Tensorflow Guide](https://www.tensorflow.org/guide)
 - [PyTorch Guide](https://pytorch.org/docs/stable/index.html)
 
+# Table of Contents:
+
+- [Initialization](#initialization)
+- [JupyterLab](#jupyterlab)
+- [VS Code](#vs-code)
+- [GPU & Python Packages](#gpu-and-python-packages)
+- [Conda Environments](#conda-environments)
+
 # Initialization
 Once you have connected your GitHub to the server you will now see the Hub Control Panel. The Hub Control Panel is where you can initialize or terminate your session. 
 
@@ -81,7 +89,7 @@ These are some themes that you can install to personalize your VS Code:
 Shortcut for changing your current theme:  ```CTRL+K CTRL+T```
 
 
-# GPU & Python Packages
+# GPU and Python Packages
 
 ### GPU
 
@@ -147,3 +155,5 @@ into the JupyterLab console to list avaliable kernels and remove the unwanted on
 [Source](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)
 
 ###### 
+
+
