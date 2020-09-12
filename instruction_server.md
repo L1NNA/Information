@@ -32,6 +32,7 @@ This is a tutorial for using the L1nna laboratory's GPU computing cluster.  It c
 # Table of Contents:
 
 - [Initialization](#initialization)
+- [Termination](#termination)
 - [JupyterLab](#jupyterlab)
 - [VS Code](#vs-code)
 - [GPU & Python Packages](#gpu-and-python-packages)
