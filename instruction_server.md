@@ -155,6 +155,12 @@ into the JupyterLab console to list avaliable kernels and remove the unwanted on
 
 [Source](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)
 
+### Accessing Conda from terminal
+
+To access Conda directly from your terminal you can input:
+
+```source activate your_conda_env_here```
+
 # Setting up an SSH Key
 Setting up an SSH key for your Github will provide you both with security and quality of live benefits.
 * With an SSH key you will no longer need to login to your Github account on that machine 
@@ -192,6 +198,8 @@ cat .ssh/id_rsa.pub
 
 ## Cloning
 From now on ensure that when you run a ```git clone``` command you copy the SSH link from the repository you are cloning. 
+When asked if you want to continue connecting type ```yes```.
+
 ![image](https://user-images.githubusercontent.com/25777235/95110579-3c716b00-070c-11eb-8583-3cc6f06fecb0.png)
 
 
