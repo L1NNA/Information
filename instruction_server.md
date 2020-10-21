@@ -131,7 +131,12 @@ magic.py  __pycache__  pytest  _pytest  pytest-6.0.1.dist-info  python_magic-0.4
 ```
 
 # Conda Environments
-Currently, you are unable to activate Conda environments through the standard JupyterLab terminal, instead you must use the VS Code Terminal.  Create a new VS Code page by opening it from the JupyterLab launcher.  Next open the menu in the top left and go to Terminal -> New Terminal.  From here you should be able to use all standard Conda commands.
+By default, all your new conda environments will be saved into your home folder. So that will be persisted even if you stop/restart your server. To activate an environment in JupyterLab terminal, you can:
+
+```
+source activate your_environment
+```
+This is the **ONLY** way it will work with the JupyterLab web terminal. 
 
 ### Linking Conda Environments to Python
 After creating a new Conda environment, you can create a quick-link on the JupyterLab launcher to create a Python terminal with the new Conda environment.  First, activate your new Conda environment.  Then install `ipykernel` into that new environment.  Finally create a new kernel :
