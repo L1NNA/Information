@@ -181,7 +181,7 @@ ssh-keygen -t rsa -b 4096 -C "GitHubaccEmailHere"
 ```
 * This will generate an SSH key specifically for your email.
 
-* It is recommened to put a password on your ssh key when prompted.
+* Put a password on your ssh key when prompted.
 
 2. Ensure that your SSH key has successfully generated 
 ```
