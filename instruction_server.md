@@ -191,6 +191,11 @@ The output should be:
 
 ```id_rsa  id_rsa.pub```
 
+2. (b) Ensure that you have the correct credentials for your SSH key.
+```
+chmod 600 .ssh/id_rsa
+```
+
 3. Copy your SSH key to your clipboard by copying the output from the command:
    
 ```
